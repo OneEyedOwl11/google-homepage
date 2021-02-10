@@ -8,24 +8,33 @@
     <title>Homepage</title>
 </head>
 <body>
-    <div class="navbar">
+    <div class="pagewrapper">
+        <div class="page-inner">
+    <nav class="navbar">
         <ul>
-            <li><a href="#">Gmail</a></li>
+            <li><a href="#"><button>Sign In</button></a></li>
+            <li><a href="#">Menu</a></li>
             <li><a href="#">Images</a></li>
-            <li></li>
-            <li></li>
+            <li><a href="#">Gmail</a></li>
         </ul>
-    </div>
+    </nav>
     <div class="parent-div">
-    <div id="google-logo">
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
-    </div>
-    <div id="dorm-div">
+        <div id="google-logo">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
+        </div>
+    <div id="form-div">
         <form>
-            <div class="searchbar-div"><input type="text" name="searchbar" id="searchbar"></div>
-            
+            <div class="searchbar-div">
+                <input type="text" name="searchbar" id="searchbar">
+            </div>
         </form>
+        <div class="submit-buttons">
+            <button type="submit" class="actual-submit">Google Search</button>
+            <button class="lucky-button"></button>
+        </div>
     </div>
+</div>
+</div>
 </div>
 </body>
 </html>
