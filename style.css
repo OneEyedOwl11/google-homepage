@@ -1,0 +1,9 @@
+#searchbar {
+    width: 200px;
+    height: 20px;
+    text-align: center;
+}
+
+.parent-div {
+    margin: 200px auto;
+}
