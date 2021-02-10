@@ -10,7 +10,7 @@ body {
     min-width: 0;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 90vh;
   }
 
 .pagewrapper {
@@ -37,7 +37,7 @@ ul {
   
   li a {
     display: block;
-    padding: 6px 6px;
+    padding: 7px 9px;
     text-decoration: none;
     color: black;
     text-align: center;
@@ -67,6 +67,7 @@ ul {
       border-radius: 3px;
       cursor: pointer;
       background-color: rgb(76, 127, 238);
+      height: 30px;
   }
 /*Logo*/
   #google-logo {
@@ -95,12 +96,95 @@ ul {
 .searchbar-div .icons {
     position: absolute;
     top: 0;
-    width:50%;
+    margin-left: 21%;
+    width:53%;
     display: flex;
     padding: 12px 20px;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
 }
 
 .languages li a {
     text-decoration: underline;
     color: rgb(76, 127, 238);
+}
+.languages{
+
+  display: flex;
+  margin-top: 30px;
+}
+.submit-buttons {
+  margin-top: 20px;
+}
+.actual-submit {
+  background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: rgb(128, 128, 128);
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    outline: none;
+}
+.lucky-button {
+  background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: rgb(128, 128, 128);
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    outline: none;
+}
+.actual-submit:hover {
+    border: 1px solid rgb(202, 202, 202);
+    color: rgb(71, 71, 71);
+}
+.lucky-button:hover {
+  color: rgb(71, 71, 71);
+    border: 1px solid rgb(202, 202, 202);
+}
+
+/*Footer*/
+
+.footer-page {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-page a {
+  text-decoration: none;
+}
+
+.left-footer {
+  padding: 15px 25px;
+  border-top: 1px solid rgba(0,0,0,0.05);
+}
+
+.right-footer {
+  padding: 15px 25px;
+  border-top: 1px solid rgba(0,0,0,0.05);
+}
+.footer-page ul li a {
+  color: #70757a;
 }
